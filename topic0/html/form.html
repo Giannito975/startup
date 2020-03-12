@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+
+      <legend>Inscription Summary</legend>
+      <label for="nombre">Name: </label>
+      <input type="text" name="nombre" id="nombre" placeholder="Type your name..." required>
+      <label for="apellido">Last name: </label>
+      <input type="text" name="apellido" id="apellido" placeholder="Type your last name..." required>
+      <label for="email">Email Adress: </label>
+      <input type="email" name="email" id="email" placeholder="Type your email adress..." required>
+      <label for="fechaNacimiento">Born date: </label>
+      <input type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="dd/mm/aaaa" required>
+      <label for="deporte">Sport:  </label>
+      <select>
+        <option>Soccer</option>
+        <option>Baseball</option>
+        <option>Basketball</option>
+        <option>Cycling</option>
+      </select>
+      <label for="textArea">Something you want to add/comment: </label>
+      <textarea cols="30" rows="10"></textarea>
+      <input type="submit" name="sendData" id="submit" required>
+      <label for="reset"> Clear fields</label>
+      <input type="reset" name="reset" id="reset" required>
+    </fieldset>
+  </form>
+</body>
+</html>
+
